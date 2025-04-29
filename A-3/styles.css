@@ -106,15 +106,6 @@ body {
     width: 720px; 
   }
 
-.center {
-  width: 50%;
-  position: sticky;
-  top: 20px;
-  margin: 0 auto;
-}
-
-
-
 .offer-box {
   position: fixed;
   top: 440px; 

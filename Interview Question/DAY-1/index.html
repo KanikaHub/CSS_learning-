@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS Concepts</title>
+  
+</head>
+<body>
+
+  <h1> Interview Question </h1>
+
+  <!-- 1. Flex Row vs Column -->
+  <div class="big-box">
+    <h2>1. Difference between flex row and column</h2>
+    <div class="flex-row">
+      <div class="box">ROW 1</div>
+      <div class="box">ROW 2</div>
+    </div>
+    <br>
+    <div class="flex-column">
+      <div class="box">COL A</div>
+      <div class="box">COL B</div>
+    </div>
+    <div class="note"><strong>Row:</strong> Items side by side. <strong>Column:</strong> Items stacked vertically.</div>
+  </div>
+
+  <!-- 2. Inline, Internal, External Stylesheets -->
+  <div class="big-box">
+    <h2>2. Explain inline , internal and external stylesheet </h2>
+    <p style="color: red; font-weight: bold;">This is styled with Inline CSS</p>
+    <p class="internal-style">This is styled with Internal CSS</p>
+    <p><em>External CSS</em> is applied when styles are written in a separate `.css` file and linked to this HTML.</p>
+  </div>
+
+  <!-- 3. Justify Content -->
+  <div class="big-box">
+    <h2>3. Justify-content allows you to do what? </h2>
+    <div class="justify-demo">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+    <div class="note">justify-content: space-between; spreads items evenly along the main axis.</div>
+  </div>
+
+  <!-- 4. Absolute vs Relative -->
+  <div class="big-box">
+    <h2>4. Difference between absolute and relative positioning</h2>
+    <div class="position-container">
+      <div class="relative-box">Relative</div>
+      <div class="absolute-box">Absolute</div>
+    </div>
+    <div class="note"><strong>Relative:</strong> Moves from original place.<br><strong>Absolute:</strong> Moves from nearest positioned ancestor or page.</div>
+  </div>
+
+  <!-- 5. Z-Index -->
+  <div class="big-box">
+    <h2>5.What is the z-index in CSS?</h2>
+    <div class="z-container">
+      <div class="z1"> Z-Index</div>
+      <div class="z2">Z-Index</div>
+    </div>
+    <div class="note">Blue box has higher <strong>z-index</strong> and appears on top of red box.</div>
+  </div>
+
+  <!-- 6. Padding vs Margin -->
+  <div class="big-box">
+    <h2>6.What is the difference between padding and margin?</h2>
+    <div class="spacing-box">
+      This box has padding inside (space between content and border-used 20px) and margin outside (space around the box-used 20px).
+    </div>
+    <div class="note"><strong>Padding:</strong> Inside spacing.<br><strong>Margin:</strong> Outside spacing.</div>
+  </div>
+
+</body>
+</html>
