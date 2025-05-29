@@ -1,0 +1,142 @@
+body{
+    padding-left: 400px;
+    background-color: rgb(113, 112, 112);
+    color:rgb(229, 255, 0);
+}
+h1{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.c1 div{
+    background-color: rgb(255, 196, 0);
+}
+.trans{
+    transform: skewX(20deg);
+    animation-name: transform1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes transform1{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.c2 div{
+    background-color:rgb(238, 255, 0);
+}
+.trans2{
+    transform: skewY(30deg);
+    animation-name: transform;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes transform{
+    0%{
+        transform: skewY(30deg);
+    }
+    50%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.c3 div{
+    background-color:rgb(1, 255, 255);
+}
+.trans3{
+    transform: rotate(90deg);
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.trans4{
+    background-color: rgb(0, 255, 0);
+    animation-name: scale1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 1px solid rgb(255, 255, 255);
+}
+@keyframes scale1{
+    0%{
+        transform:scaleY(1.0);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1.0);
+    }
+}
+
+.trans5{
+    background-color: rgb(0, 255, 0);
+    animation-name: scale2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 1px solidrgb(0, 255, 0);
+}
+@keyframes scale2{
+    0%{
+        transform:scaleX(1.0);
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1.0);
+    }
+}
+
+.trans6{
+    background-color: rgb(0, 255, 0);
+    animation-name: rot;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+a{
+    font-size: 50px;
+    margin-left: 10px;
+    color:rgb(229, 255, 0);
+    text-decoration: none;
+}
